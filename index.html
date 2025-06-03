@@ -1220,10 +1220,10 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr 2fr;
   justify-items: start;
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto 20px;
   text-align: left;
-  gap: 2px;
+  gap: 4px;
 }
 
 .clients-role {
@@ -1283,8 +1283,8 @@ nav a:hover {
 
 /* Footer */
 .footer {
-    background-color: var(--background-light);
-    padding: 80px 0 10px;
+    background-color: rgba(66, 133, 244, 0.1);
+    padding: 60px 0 10px;
 }
 
 .footer-content {
@@ -1294,22 +1294,21 @@ nav a:hover {
 }
 
 .footer-brand {
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .footer-logo {
     font-size: 24px;
     font-weight: 700;
     color: var(--primary-color);
-    display: flex;
+    
     align-items: center;
     gap: 8px;
     margin-bottom: 15px;
 }
 
 .footer-logo svg {
-    width: 20px;
-    height: 20px;
+    height: 15px;
 }
 
 .footer-brand p {
@@ -1431,7 +1430,7 @@ nav a:hover {
                     <!-- <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M13 3L4 14H15L11 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg> -->
-                    <img src="logo2.png" style="height: 50px;"><a href='/'></a>
+                    <img src="logo2.png" style="height: 50px;">
                     <!-- <span>Neurova</span> -->
                 </div>
                 <nav>
@@ -1439,7 +1438,7 @@ nav a:hover {
                         <li><a href="#services">Services</a></li>
                         <li><a href="#pricing">Pricing</a></li>
                         <li><a href="#testimonial">Testimonial</a></li>
-                        <li><a href="https://hargit19.github.io/click-n-call-contact-us/">Contact Us</a></li>
+                        <li><a href="#process">Process</a></li>
                     </ul>
                 </nav>
                 <button class="btn-primary" onclick="scrollDownBy1200px()">
@@ -1489,9 +1488,9 @@ nav a:hover {
                     AI Operator will Call<br>When the target clicks the URL
                 </h3>
                <div style="margin-bottom: 10px">
-                <img src="left.png" style="height: 80px; width: 80px">
-                <img src="center.png" style="height: 80px; width: 80px">
-                <img src="right.jpg" style="height: 80px; width: 80px">
+                <img src="left.png" style="height: 60px; width: 60px">
+                <img src="center.png" style="height: 60px; width: 60px">
+                <img src="right.jpg" style="height: 60px; width: 60px">
                </div>
                <h4 class="hero-title">
                     30% of the target will pick the phone like you
@@ -1506,7 +1505,7 @@ nav a:hover {
             </div>
         </section>
 
-        <section class="logos">
+        <!-- <section class="logos">
             <div class="container">
                 <div class="logo-grid">
                     <div class="logo-item">
@@ -1542,7 +1541,7 @@ nav a:hover {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         
 
@@ -1806,26 +1805,9 @@ Let's try it.
          <div class="services-title" style="font-weight: 600; margin-bottom:20px">If you apply for a free demo, we will send you a website URL with the service price listed.
 <!-- </div> -->
          </div>
-        <div style="display:flex; align-items:center; justify-content: center">
-        <div class="form-container-enhanced">
-    <div class="form-title-enhanced">Free Trial Available</div>
-    <div class="form-subtitle-enhanced">Please fill out the form below to apply.</div>
+       
 
-    <form class="form-enhanced">
-      <input type="text" placeholder="Nick Name" required />
-      <input type="email" placeholder="Email" required />
-      <input type="tel" placeholder="Phone Number" required />
-      <button type="submit" class="btn-submit-enhanced">Get Started</button>
-    </form>
-
-    <div class="form-note-enhanced">
-      Once you click send, you will receive an email.<br />
-      Check your email, click the URL provided, and wait. An AI will call you.
-    </div>
-  </div>
-  </div>
-
-        <section id="pricing" class="pricing">
+        <!-- <section id="pricing" class="pricing">
             <div class="container">
                 <div class="section-label">Pricing</div>
                 <h2 class="pricing-title">Flexible pricing plans for every business</h2>
@@ -2009,9 +1991,28 @@ Let's try it.
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>  -->
 
         
+ <div style="display: flex; width:100%; margin-top:50px">
+ <div style="margin-top:30px; margin-left:200px">
+        <div class="form-container-enhanced">
+    <div class="form-title-enhanced">Free Trial Available</div>
+    <div class="form-subtitle-enhanced">Please fill out the form below to apply.</div>
+
+    <form class="form-enhanced">
+      <input type="text" placeholder="Nick Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <button type="submit" class="btn-submit-enhanced">Get Started</button>
+    </form>
+
+    <div class="form-note-enhanced">
+      Once you click send, you will receive an email.<br />
+      Check your email, click the URL provided, and wait. An AI will call you.
+    </div>
+  </div>
+  </div>
 
 
   <section class="service-flow">
@@ -2055,6 +2056,8 @@ Let's try it.
     </div>
   </div>
 </section>
+
+</div>
 
 
 
@@ -2284,7 +2287,7 @@ Let's try it.
     </div>
 
 
-    <div class="clients-footer">
+    <!-- <div class="clients-footer">
       <div class="clients-footer-left">
         <h4 class="clients-footer-title">Click & Call</h4>
         <p>Devnagri AI (India)<br>
@@ -2297,7 +2300,7 @@ Let's try it.
       <div class="clients-footer-right">
         <p>Terms and Conditions</p>
       </div>
-    </div>
+    </div> -->
   </div>
 
 
@@ -2329,7 +2332,7 @@ Let's try it.
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <img src="logo2.png" style="height: 80px; width:300px">
+                    <img src="logo2.png" style="height: 80px; width:350px; align-self:last baseline">
                     <p>AI powered solutions for automation and growth</p>
                     <button class="btn-primary btn-sm">
                         Try for Free
@@ -2344,7 +2347,7 @@ Let's try it.
       <div class="clients-company">Aiberry LLC (Japan) <a href="https://aiberry.co.jp/" target="_blank">https://aiberry.co.jp/</a></div>
     </div>
                 
-                <div class="footer-links">
+                <!-- <div class="footer-links">
                     <div class="footer-column">
                         <h4>Quick links</h4>
                         <ul>
@@ -2365,18 +2368,9 @@ Let's try it.
                         </ul>
                     </div>
                     
-                </div>
+                </div> -->
             </div>
             
-            <div class="footer-bottom">
-                <p>&copy; 2025 Neurova. All rights reserved.</p>
-                <div class="footer-social">
-                    <a href="#"><i data-lucide="instagram"></i></a>
-                    <a href="#"><i data-lucide="twitter"></i></a>
-                    <a href="#"><i data-lucide="facebook"></i></a>
-                    <a href="#"><i data-lucide="linkedin"></i></a>
-                </div>
-            </div>
         </div>
     </footer>
 
